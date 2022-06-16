@@ -31,3 +31,5 @@ function getTimestamp() {
   const timestamp = dateNow.getTime();
   return timestamp;
 }
+
+module.exports = {startServer};
