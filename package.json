@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DomnMihai/jenkins-pipeline-tutorial__nodejs-backend.git"
+  },
+  "author": "Mihai"
+}
