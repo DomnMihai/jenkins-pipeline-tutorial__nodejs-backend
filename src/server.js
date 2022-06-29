@@ -48,4 +48,4 @@ function getTimestamp() {
   return timestamp;
 }
 
-module.exports = {startServer};
+module.exports = {startServer, app};
