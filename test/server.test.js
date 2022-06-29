@@ -27,3 +27,14 @@ describe('Test / request', function() {
   });
 
 });
+
+describe('Failing test', function() {
+
+  it('Run random failing test', function() {
+    const randomResult = Math.random() > 0.05;
+
+    // Test random result
+    assert.equal(randomResult, true, 'Random fail');
+  });
+
+});
