@@ -1,1 +1,4 @@
-filesToDeploy: {}
+filesToDeploy:
+  - src/
+  - package.json
+  - package-lock.json
