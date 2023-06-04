@@ -2,3 +2,5 @@ filesToDeploy:
   - src/
   - package.json
   - package-lock.json
+systemdService:
+  serviceName: nodejs-backend-app.service
