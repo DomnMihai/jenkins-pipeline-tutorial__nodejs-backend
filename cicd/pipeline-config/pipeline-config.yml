@@ -4,3 +4,6 @@ filesToDeploy:
   - package-lock.json
 systemdService:
   serviceName: nodejs-backend-app.service
+application:
+  applicationPath: /home/nodejs-server/backend-application/nodejs-backend
+  applicationBackupsPath: /home/nodejs-server/backend-application/backups
