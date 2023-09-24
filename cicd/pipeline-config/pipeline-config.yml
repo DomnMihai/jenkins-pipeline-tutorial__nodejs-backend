@@ -7,3 +7,5 @@ systemdService:
 application:
   applicationPath: /home/nodejs-server/backend-application/nodejs-backend
   applicationBackupsPath: /home/nodejs-server/backend-application/backups
+  osUserName: nodejs-server
+  osGroupName: nodejs-server
