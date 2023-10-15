@@ -9,3 +9,8 @@ application:
   applicationBackupsPath: /home/nodejs-server/backend-application/backups
   osUserName: nodejs-server
   osGroupName: nodejs-server
+healthCheck:
+  httpPath: "http://192.168.0.50:15476/"
+  responseCode: "200"
+  checksNumber: 4
+  checkDelay: 3
