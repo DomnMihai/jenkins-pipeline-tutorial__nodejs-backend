@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
   // Generate response message
   const responseMessage = `The time now is ${timestamp}<br>\n` +
   `The server is running for ${runningTimeSeconds} seconds<br>\n` +
-  `App version ${process.env.npm_package_version}`;
+  `App version ${process.env.npm_package_version}\n`;
 
   // Sending the response
   res.statusCode = 200;
@@ -39,7 +39,7 @@ app.get('/fail', (req, res) => {
 
   // Sending the response
   res.statusCode = statusCode;
-  res.send(`Status code is ${statusCode}`);
+  res.send(`Status code is ${statusCode}\n`);
 });
 
 function getTimestamp() {
