@@ -16,6 +16,10 @@ app.get('/', (req, res) => {
   const runningTime = timestamp - serverStartTimestamp;
   const runningTimeSeconds = Math.floor(runningTime / 1000);
 
+  // Show log
+  const requestIp = req.socket.remoteAddress || 'NA';
+  console.log(`${timestamp} Request came from ${requestIp}`);
+
   // Generate response message
   const responseMessage = `The time now is ${timestamp}<br>\n` +
   `The server is running for ${runningTimeSeconds} seconds<br>\n` +
